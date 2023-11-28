@@ -8,11 +8,14 @@ header{
 body{
     background-color:#E7E7E7 ;
 }
-nav{
+/* nav{
    
     min-height: 100px;
+    
+    
+} */
   
-}
+
 #i{
     border-radius:20px;
     position:absolute;
@@ -196,7 +199,11 @@ background-color: rgb(122, 236, 198);
 
 }
 
+ul > li {
+    display: inline;
+    padding: 25px;
 
+}
 
 
 
