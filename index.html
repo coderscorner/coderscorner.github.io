@@ -1,41 +1,285 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" class="no-js"> 
+  <head>
+    <title>Coder's Corner | Learn Code With Fun.</title>
 
-<head>
-  <title>Title</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Meta -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="keywords" content="coderscorner , coderscorner , coders corner github">
+    <meta name="description" content="coderscorner is web  learning / developing site">
+    <meta name="author" content="shubhammauryainfo.github.io">
 
-  <!-- Bootstrap CSS v5.2.1 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.png" type="image/x-icon"> 
 
-</head>
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="assets/vendors/bootstrap/css/bootstrap.min.css"> 
+    <link rel="stylesheet" type="text/css" href="assets/vendors/font-awesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendors/slick-carousel/slick.css"> 
+	<link href="assets/vendors/ace-responsive-menu/ace-responsive-menu.css" rel="stylesheet" type="text/css" />
+	<link href="assets/vendors/aos/aos.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/theme.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+	
+  </head>  
+  <body>
+    <div id="preloader">
+<script>
 
-<body>
-  <header>
-    <!-- place navbar here -->
-  </header>
-  <main>
-    <div class="container mx-auto  py-5">
-        <a href="dst.pdf">
+ var loader = document.getElementById("preloader");
 
-    <button type="button" class="btn btn-warning mx-auto ">DST-PRACTICAL</button></a>
+ window.addEventListener("load" , function(){
+  loader.style.display = "none";
+ })
+
+</script>
+    </div>
+  <div class="hidden-xs hidden-sm nav-top bg-primary py-0.6">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="nav-top-contact">
+                <!-- Social links -->
+                <ul class="list-inline text-center text-md-left">
+                  <li class="list-inline-item mx-2" ><i class="fa fa-phone"></i> +91-8828724893</li>
+                  <li class="list-inline-item mx-2" ><i class="fa fa-envelope" aria-hidden="true"></i> coderscorner21@gmail.com</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-6 text-right">
+                 <ul class="list-inline text-center text-md-right mb-0">
+				  <li class="list-inline-item mx-2" data-toggle="tooltip" data-placement="top" title="Facebook">
+					<a target="_blank" href="#">
+					  <i class="fab fa-facebook"></i>
+					</a>
+				  </li>
+				  <li class="list-inline-item mx-2" data-toggle="tooltip" data-placement="top" title="Instagram">
+					<a target="_blank" href="#">
+					  <i class="fab fa-instagram"></i>
+					</a>
+				  </li>
+          <li class="list-inline-item mx-2" data-toggle="tooltip" data-placement="top" title="Youtube">
+            <a target="_blank" href="https://www.youtube.com/@coderscorner9408">
+              <i class="fab fa-youtube"></i>
+					</a>
+				  </li>
+			
+				</ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Header -->
+    <header class="main-header"> 
+	<div class="container">
+			<div class="logo">
+					<a href="index.html">
+						 <img id=logo src="logo.png" alt="coderscorner">
+					  </a>
+				</div> 
+			 <!-- Navbar --> 
+				<nav class="mainNav">
+				<!-- Menu Toggle btn-->
+				<div class="menu-toggle">
+					<h3>Menu</h3>
+					<button type="button" id="menu-btn">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<!-- Responsive Menu Structure-->
+				<!--Note: declare the Menu style in the data-menu-style="horizontal" (options: horizontal, vertical, accordion) -->
+				<ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
+					 <li class="menu-active">
+						<a href="index.html"> 
+							<span class="title">Home</span>
+						</a>
+					</li>
+					 <li>
+						<a href="about.html"> 
+							<span class="title">About Us</span>
+						</a>
+					</li>
+					 <li>
+						<a href="services.html"> 
+							<span class="title">Services</span>
+						</a>
+					</li>
+	
+						
+					<li class="last ">
+						<a href="contact.html"> 
+							<span class="title">Contact Us</span>
+						</a>
+					</li>
+				</ul>
+				</nav>   
+				</div>
+    </header>
+      <!-- End Navbar --> 
+		<section class="wt-section hero-large position-relative overflow-hidden mt-md-2"> 
+				<div class="hero-img bg-overlay" data-overlay="0" style="background-image: url(assets/img/intro/banner.jpg);" data-aos="fade-right" data-aos-easing="linear" data-aos-delay="50"></div>
+				<div class="container">
+				<div class="row align-items-center my-2">
+					<div class="col-md-6 py-2" data-aos="fade-left" data-aos-easing="linear" data-aos-delay="100">
+						<!-- heading -->
+						<h1 class="text-uppercase mb-2 display-4 font-weight-bolder header-text">
+						Coder's corner
+						</h1>
+           
+						<p class="mb-4 h5 sub-header-text">Lets Code With Fun.</p> 
+						<div class=" mb-0">
+							<a href="#" class="btn btn-pill btn-primary mr-3 mb-md-0 mb-3">
+								Quick Call
+							</a>
+						</div>
+					</div> 
+				</div>
+			</div>
+		</section>  
+    <!-- End Header -->
+
+    <main role="main"> 
+	<section class="wt-section">
+        <div class="container">
+		<div class="row justify-content-md-center text-center pb-lg-4 mb-lg-5 mb-4">
+          <div class="col-md-8 text-center w-md-50 mx-auto mb-0 ">
+            <h2 class="mb-md-2 text-uppercase">Our Services</h2>
+          </div>
+		</div> 
+          <div class="row">  
+			<div class="col-md-4">
+                <div class="bg-white p-4 mb-4 text-center border rounded-md py-5" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="50">
+						<div class="mb-4"><img src="assets/img/services/1.svg" width="80px" alt=""/></div> 
+                        <h5 class="mb-2">Mobile Apps</h5>
+                        <p class="text-muted">Our mobile application developers have hands on experience in developing mobile and tab apps which involves working on both easy and complex solutions. We work on unified and cross-platform applications as well.</p>
+                        <!-- <a href="#" class="btn btn-pill btn-outline-primary  mt-4">Read More</a>  -->
+                </div>
+            </div>
+					<div class="col-md-4">
+                <div class="bg-white p-4 mb-4 text-center border rounded-md py-5" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="150">
+                      <div class="mb-4"><img src="assets/img/services/2.svg" width="80px" alt=""/></div> 
+                        <h5 class="mb-2">Web Development</h5>
+                        <p class="text-muted">Our web application developers have hands on experience in developing web apps which involves working on both easy and complex solutions. We work on unified and cross-platform applications as well.</p>
+                       
+                </div>
+            </div>
+			
+			<div class="col-md-4">
+                <div class="bg-white p-4 mb-4 text-center border rounded-md py-5" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="200">
+						<div class="mb-4"><img src="assets/img/services/3.svg" width="80px" alt=""/></div> 
+                        <h5 class="mb-2">Custom Apps</h5>
+                        <p class="text-muted">We help enterprises expand their businesses by Custom Application development and implementation services that are capable of performing across multiple platforms and infrastructures.</p>
+                        
+                </div>
+            </div>
+          </div>  
+        </div>
+      </section>
+	  
+
+ 
+<section class="page_section" id="clients"><!--page_section-->
+  <h2 class="text-center">Our Clients</h2>
+<!--page_section-->
+
+<div class="client_logos"><!--client_logos-->
+  <div class="container">
+    <ul class="fadeInRight animated wow">
+      <li><a href="https://educatetutorials.in"><img src="assets/img/clients/client_logo1.png" alt="educatetutorials" class="client_logos-img"></a></li>
+      <li><a href="https://coderscorner.github.io"><img src="assets/img/clients/client_logo2.png" alt="coderscorner" class="client_logos-img"></a></li>
+      <li><a href="#"><img src="assets/img/clients/client_logo3.png" alt="anigreet" class="client_logos-img"></a></li>
+    
+    </ul>
+  </div>
+</div>
+</section>
+<br>
+<br>
+    </main>
+
+    <!-- Footer --> 
+<footer class="wt-section bg-dark main-footer">
+<div class="container">
+<div class="row">
+<div class=" col-sm-4 col-md col-sm-4 col-12 col mb-4">
+<h5 class="mb-4">Reach us</h5>
+ 
+<p><i class="fa fa-location-arrow mr-2"></i> Nallasopara (East), Mah IND  </p>
+<p><i class="fa fa-phone mr-2"></i>  +91-8828724893  </p>
+<p><i class="fa fa fa-envelope mr-2"></i> coderscorner21@gmail.com </p>
+
+
 </div>
 
-  </main>
-  <footer>
-    <!-- place footer here -->
-  </footer>
-  <!-- Bootstrap JavaScript Libraries -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
-  </script>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
-  </script>
-</body>
+<div class="col-sm-4 col-md  col-6 col mb-4">
+<h5 class="mb-4">Site links</h5>
 
+<ul class="list-inline">
+  <li class="list-block-item mx-2"><a href="index.html">Home</a></li>
+  <li class="list-block-item mx-2"><a href="about.html">About Us</a></li>
+  <li class="list-block-item mx-2"><a href="services.html">Services</a></li>
+  <li class="list-block-item mx-2"><a href="assets/coder/index.html">Portfolio</a></li>
+  <li class="list-block-item mx-2"><a href=" ">LINUX-PRACTICAL</a></li>
+
+
+</ul>
+
+</div>
+
+
+<div class="col-sm-4 col-md  col-6 col mb-4">
+<h5 class="mb-4">Quick links</h5>
+
+<ul class="list-inline">
+<li class="list-block-item mx-2"><a href="assets/coder/education/">projects</a></li>
+<li class="list-block-item mx-2"><a href="contact.html">Contact Us</a></li>
+<li class="list-block-item mx-2"><a href="#">Privacy Policy</a></li>
+<li class="list-block-item mx-2"><a href="http://coderscorner.github.io">Terms & Conditions</a></li>
+</ul>
+
+</div>
+
+
+<div class="col-sm-4 col-md  col-12 col mb-4">
+<h5 class="mb-4">Follow us</h5>
+<ul class="social_footer_ul list-inline text-left mb-0">
+<li class="list-inline-item mx-2"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+<li class="list-inline-item mx-2"><a href="#"><i class="fab fa-twitter"></i></a></li>
+<li class="list-inline-item mx-2"><a href="https://www.youtube.com/@coderscorner9408"><i class="fab fa-youtube"></i></a></li>
+</ul>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12 pt-4"> 
+
+<p class="text-center copyrights"><a class="text-white" href="#"></a>Coder's Corner <br>2023 © All Rights Reserved</p>
+</div>
+</div> 
+</div> 
+</footer>
+    <!-- End Footer --> 
+	
+    <!-- JS Script Files -->
+    <!-- Global Vendor -->
+    <script src="assets/vendors/jquery.min.js"></script>
+    <script src="assets/vendors/jquery.migrate.min.js"></script>
+    <script src="assets/vendors/popper.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/vendors/aos/aos.js"></script>
+
+    <!-- Components Vendor  --> 
+    <script src="assets/vendors/slick-carousel/slick.min.js"></script>
+	   <script src="assets/vendors/ace-responsive-menu/ace-responsive-menu.js"></script>
+
+    <!--Plugin Initialize-->
+    <script src="assets/js/global.js"></script> 
+    <script src="assets/vendors/carousel.js"></script>
+	
+    <!-- END JAVASCRIPTS -->
+  </body> 
 </html>
